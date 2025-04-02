@@ -5,4 +5,4 @@ FROM books;
 
 -- Select all columns from library_authors
 SELECT *
-FROM library_authors; 
+FROM library_authors;
