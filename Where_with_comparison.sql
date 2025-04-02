@@ -14,3 +14,7 @@ SELECT COUNT(*) AS films_over_100K_votes
 FROM reviews 
 WHERE num_votes >= 100000
 
+-- Count the Spanish-language films
+SELECT COUNT (language) AS count_spanish 
+FROM films
+WHERE language = 'Spanish'
