@@ -13,3 +13,4 @@ FROM films;
 -- Find the duration of the shortest film
 SELECT MIN (duration) AS shortest_film
 FROM films; 
+
