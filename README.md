@@ -8,12 +8,11 @@ Copy code (bash):
 git clone https://github.com/AKCSAI/DataEngineering-SQL.git
 
 Step 1 - Convert the CSV file to SQL (The python code is available in Python-Cybersecurity)
+NOTE: Make sure to remove the first number column in your CSV before conversion, or you'll get an error.
 
 Step 2 - Run sqlite3 (any-name-you-want).db
 
 Step 3 - The code for this is available in the SQL file. I've made it into a comment just copy and paste.
-
-NOTE: Make sure to remove the first number column in your CSV before conversion, or you'll get an error.
 
 Step 4 - .read (filename).sql
 
