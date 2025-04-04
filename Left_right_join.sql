@@ -69,6 +69,6 @@ SELECT countries.name AS country, languages.name AS language, percent
 FROM languages  --languages and countries are switched
 RIGHT JOIN countries
 USING(code)
-ORDER BY language; -
+ORDER BY language; 
 
 
