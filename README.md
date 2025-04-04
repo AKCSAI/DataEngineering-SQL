@@ -9,15 +9,17 @@ git clone https://github.com/AKCSAI/DataEngineering-SQL.git
 
 Step 1 - Convert the CSV file to SQL (The python code is available in Python-Cybersecurity)
 
-Step 2 - Run sqlite3 (database name).db
+NOTE: Make sure to remove the first number column in your CSV before conversion, or you'll get an error.
+
+Step 2 - Run sqlite3 (any-name-you-want).db
 
 Step 3 - The code for this is available in the SQL file. I've made it into a comment just copy and paste.
 
-Step 4 - Run .read .sql
+Step 4 - .read (filename).sql
 
-Step 5 - Test by typing .tables
+Step 5 - .tables (Test by typing just like that)
 
-Step 6 - See all data is there SELECT * FROM
+Step 6 - See all data is there SELECT * FROM (tablename);
 
 Ensure that the paths to any external files or resources are correctly set in your environment or scripts. Execute the SQL scripts as per the comments or documentation included in each file.
 
