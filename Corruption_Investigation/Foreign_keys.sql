@@ -13,3 +13,6 @@ JOIN universities
 ON professors.university_id = universities.id
 WHERE universities.university_city = 'Zurich';
 
+--
+
+
