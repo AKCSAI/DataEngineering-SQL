@@ -22,3 +22,4 @@ SELECT film_id, title, release_year FROM film;
 
 -- View film_partitioned
 SELECT * FROM film_partitioned;
+
